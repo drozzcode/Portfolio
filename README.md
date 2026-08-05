@@ -1,1 +1,3 @@
 # Portifólio
+
+## guiding questions: https://miro.com/welcomeonboard/anJwRmhGUE0zWWY3YWJ3K2JsWi82cHFFQ0JkZi9LcUIzK3RuUzI1STcvOEsyN1BYSG9ZM29BQ2UwWSs1c2h3ZzVoV3RFcTVOekV1WkltMFlBMEplK3JLNDhHOG9Sby9QNWprSkw5THpISDNkbkY0dWQ4dFhXb2w2d2NyOGpNQ2FyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=913612560320
