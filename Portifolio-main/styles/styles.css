@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+html {
+    font-family: "Syne", monospace;
+    font-weight: 500;
+    
+    font-size: 2rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+.open,
+.close{
+    color: orange;
+    text-shadow: 0 0 3px  orange  , 0 0 0px orange, 0 0 3px orange;
+}
+
+.nome {
+    color: rgb(0, 252, 218);
+    font-size: 100px;
+    margin-top: 4.17%;
+    margin-left: 10.48%;
+    text-shadow: 0 0 3px  rgb(0, 252, 218)  , 0 0 0px rgb(0, 252, 218), 0 0 3px rgb(0, 252, 218);
+
+
+}
+
+
+
+
+.Abracket {
+    font-size: 80px;
+    color: fuchsia;
+    text-shadow: 0 0 3px  fuchsia  , 0 0 0px fuchsia, 0 0 3px fuchsia;
+}
+
+.profession {
+    color: rgb(134, 31, 134);
+    text-align: center;
+    font-size: 33px;
+    text-shadow: 0 0 3px  rgb(134, 31, 134)  , 0 0 0px rgb(134, 31, 134), 0 0 3px rgb(134, 31, 134);
+
+}
+
+
+
+body {
+    color: rgb(201, 198, 198);
+    background-color: rgb(14, 14, 27);
+}
+
+.format {
+    margin-left: 30%;
+    color: rgb(2, 247, 124);
+    text-shadow: 0 0 3px  rgb(2, 247, 124)  , 0 0 0px rgb(2, 247, 124), 0 0 3px rgb(2, 247, 124);
+    
+}
+
+.Bbracket {
+    margin-left: 15.63%;
+    text-align: left;
+    font-size: 80px;
+    color: fuchsia;
+    text-shadow: 0 0 3px  fuchsia  , 0 0 0px fuchsia, 0 0 3px fuchsia;
+}
+
+
+
+.sobre_mim {
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 0 0 3px white, 0 0 0px white, 0 0 10px white;
+    color: white;
+}
+
+.sobre_mim_texto{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+    line-height: 1.6;
+    color: white;
+}
+
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.linkedin_button,
+.gmail_button,
+.git_button {
+    width: 50px;
+    height: 30px;
+    padding: 3px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.linkedin_icon img,
+.gmail_icon img,
+.git_icon img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.ability_cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.abilities{
+    text-align: center;
+    text-shadow: 0 0 3px white, 0 0 0px white, 0 0 10px white;
+    color: white;
+    
+}
+
+.ability_card_2,
+.ability_card_1{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    background: rgb(14, 14, 27);
+    border-radius: 25px;
+    border: 4px solid rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    box-shadow: 10px 10px 10px purple;
+    color: white;
+    font-family: serif;
+}
+
+
+.python_icon,
+.java_icon{
+    width: 70px;
+    height: 70px;
+    display: block;
+    ;
+}
+
