@@ -1,0 +1,258 @@
+html {
+    font-family: "Syne", monospace;
+    font-weight: 0;
+    font-size: 2rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.intro_text {
+    flex: 1;
+}
+
+.imagem_dev {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: solid 1px rgb(96, 87, 255);
+}
+
+.nome {
+    color: rgb(96, 87, 255);
+}
+
+.disp {
+    width: fit-content;
+    height: fit-content;
+    color: rgb(96, 87, 255);
+    font-size: medium;
+    border-radius: 30px;
+    border: 2px solid rgb(96, 87, 255);
+    padding: 0px 10px;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.desc {
+    font-size: large;
+}
+
+body {
+    color: rgb(201, 198, 198);
+    background-color: rgb(0, 0, 0);
+}
+
+.sobre_mim {
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Inter", sans-serif;
+    color: rgb(96, 87, 255);
+}
+
+.sobre_mim_texto {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+    line-height: 1.6;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 150px;
+}
+
+.linkedin_button,
+.gmail_button,
+.git_button {
+    width: 50px;
+    height: 30px;
+    padding: 3px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin_icon img,
+.gmail_icon img,
+.git_icon img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.ability_cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.abilities {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: rgb(96, 87, 255);
+}
+
+.ability_card_4,
+.ability_card_3,
+.ability_card_2,
+.ability_card_1 {
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    background: rgb(14, 14, 27);
+    border-radius: 25px;
+    border: 4px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    box-shadow: 10px 10px 10px purple;
+    color: white;
+    font-family: serif;
+    
+}
+
+.sql_icon,
+.JavaScript_icon,
+.python_icon,
+.java_icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+
+.projetos {
+    text-align: center;
+    color: rgb(96, 87, 255);
+    font-family: "Inter", sans-serif;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    align-items: flex-start;    
+    flex-wrap: wrap;
+}
+
+.project_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.project_wrapper h4 {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.project_1,
+.project_2 {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    background: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: solid 2px rgb(96, 87, 255);
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(96, 87, 255, 0.3);
+}
+
+.project_1 img,
+.project_2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.4s ease;
+}
+
+.project_1.hovered img,
+.project_2.hovered img {
+    opacity: 0;
+}
+
+.descricao_projeto {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.descricao_projeto p {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.95rem;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.project_1.hovered .descricao_projeto,
+.project_2.hovered .descricao_projeto {
+    opacity: 1;
+}
+
+
+
+.seeMoreButton {
+    width: max-content;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+
+.ver_mais {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.foot {
+    margin-top: 150px;
+    font-size: medium;
+    text-align: right;    
+}
